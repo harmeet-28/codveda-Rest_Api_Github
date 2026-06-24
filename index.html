@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitSpy // Profile Inspector</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app-wrapper">
+        <header class="app-header">
+            <h1>GitSpy<span class="dot">.</span></h1>
+            <p class="tagline">Search & fetch developer nodes instantly.</p>
+        </header>
+
+        <section class="search-component">
+            <div class="input-wrapper">
+                <input type="text" id="username-input" placeholder="Enter GitHub username (e.g., torvalds)" autocomplete="off">
+            </div>
+        </section>
+
+        <div id="status-message" class="status-box"></div>
+
+        <article id="profile-card" class="profile-card-brutal hidden">
+            </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
